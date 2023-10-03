@@ -18,7 +18,9 @@ public class Ejercicio3 {
 		numero = sc.nextDouble();
 		
 		// Realizamos la condicional para ver si el número es un casi-cero	intervalo entre (1,-1)
-		if((numero<0&&numero>-1)|| (numero>0&&numero<1)) {
+		
+		if((numero<0&&numero>-1) || (numero>0&&numero<1)) // if (numero>-1&&numero<1&&numero!0) 
+		{
 			System.out.println("El número es un casi cero.");
 		}
 		else {
