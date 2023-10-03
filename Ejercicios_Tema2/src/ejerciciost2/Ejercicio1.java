@@ -22,7 +22,7 @@ public class Ejercicio1 {
 		}
 		else {System.out.println("El número es impar.");
 		
-		// Cerramos el Scanner
+		// Cierro el Scanner
 		sc.close();
 		}
 
