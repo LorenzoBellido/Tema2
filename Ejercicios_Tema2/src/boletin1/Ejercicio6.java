@@ -1,4 +1,4 @@
-package ejerciciost2;
+package boletin1;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 		// Variables donde guardar los coeficientes de una ecuación de segundo grado
-		int a;
-		int b;
-		int c;
+		float a;
+		float b;
+		float c;
 		float x1;
 		float x2;
 		
@@ -25,7 +25,12 @@ public class Ejercicio6 {
 		if ((b*b)<(4*a*c)) {
 			System.out.println("Sin resultado real.");
 		}
-		// Si no es negativa realizamos la operación de segundo grado
+		// Comprobamos si el coeficiente sale 0
+		else if (a==0) {
+			x1 = (float) (-c/b);
+			System.out.println("La x es: " + x1);
+		}
+		// Si no es negativa y su coeficiente no es 0 realizamos la operación de segundo grado
 		else {
 			// Muestro ambas soluciónes 
 			x1 = (-b + (float)Math.sqrt((b*b)-(4*a*c)))/(2*a);

@@ -1,8 +1,8 @@
-package ejerciciost2;
+package boletin1;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		// Variable para guardar el número1 entero
@@ -13,23 +13,21 @@ public class Ejercicio4 {
 		// Scanner para leer el teclado
 		Scanner sc = new Scanner(System.in);
 		
-		// Pido dos números
-		System.out.println("Introduzca dos números:");
-		// Leemos los números del teclado
+		// Pido undos números 
+		System.out.println("Introduzca dos número: ");
+		// Leemos los numeros del teclado
 		numero1 = sc.nextInt();
 		numero2 = sc.nextInt();
 		
-		// Crear la condición para mostrarlos ordenados de menor a mayor
-		if (numero1<numero2){
-			System.out.println(numero1 + "<" + numero2);
-		}
+		// Realizar la condicional para ver si los números son iguales
+		if(numero1==numero2) {
+			System.out.println("Los números son iguales");
+			}
 		else {
-			System.out.println(numero2 + "<" + numero1);
-		}
-		
+			System.out.println("Los números no son iguales");
+			}
 		// Cierro el Scanner
 		sc.close();
-
 	}
 
 }
