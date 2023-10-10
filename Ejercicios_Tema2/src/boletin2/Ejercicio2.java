@@ -33,7 +33,7 @@ public class Ejercicio2 {
 		case 7 ->
 		System.out.println("Domingo.");
 		default-> 
-			System.out.println("Día Incorrecto");
+		System.out.println("Día Incorrecto");
 		
 		}
 		
