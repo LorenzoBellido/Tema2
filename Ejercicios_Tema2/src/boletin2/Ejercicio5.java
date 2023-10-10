@@ -16,7 +16,7 @@ public class Ejercicio5 {
 		System.out.println("¿Cuál es su tipo de carnet?  [E][D][C1-C5][A][B1-B2]");
 		respuesta = sc.next();
 		
-		// Hago las condicionales paraa ver el tipo de carnet
+		// Hago las condicionales para ver el tipo de carnet
 		switch (respuesta) {
 		case "E" ->
 			System.out.println("Su carnet es de remolques.");
