@@ -1,5 +1,6 @@
 package boletin3;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Ejercicio7 {
@@ -11,9 +12,10 @@ public class Ejercicio7 {
 		
 		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
-		random = Math.random();
 		
-		System.out.println(random);
+		// Random
+		new Random();
+		
 		// Cierro el Scanner
 		sc.close();
 	}
