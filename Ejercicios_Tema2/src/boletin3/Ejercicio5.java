@@ -25,6 +25,7 @@ public class Ejercicio5 {
 		System.out.println("Introduzca un número.");
 		numero = sc.nextInt();
 
+		// Realizo un bucle que para cuando se introducen 10 numeros
 		while (cantidad != 10) {
 			if (numero > 0) {
 				sumapos += numero;
@@ -46,11 +47,11 @@ public class Ejercicio5 {
 				numero = sc.nextInt();
 			}
 		}
-		System.out.println(sumapos);
-		System.out.println(sumaneg);
-		System.out.println(cantidadneg)
-		;System.out.println(sumaneg/cantidadneg);
-		System.out.println(cantidadcer);
+		
+		// Muestro los resultados pedidos
+		System.out.println("La suma de los números positivos es: " + sumapos);
+		System.out.println("La media de los números negativos es: " + sumaneg/cantidadneg);
+		System.out.println("La cantidad de ceros es: " + cantidadcer);
 		
 		// Cierro el Scanner
 		sc.close();
