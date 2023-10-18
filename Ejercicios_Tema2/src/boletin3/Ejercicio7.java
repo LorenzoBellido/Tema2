@@ -20,21 +20,7 @@ public class Ejercicio7 {
 		System.out.println("Introduzca un número del 1 al 100");
 		numero = sc.nextInt();
 		
-		while (numero != random && numero == -1) {
-			if(random<numero) {
-				System.out.println("El número es menor que " + numero);
-				System.out.println("Introduzca un número del 1 al 100");
-				numero = sc.nextInt();
-			}
-			else if(random>numero) {
-				System.out.println("El número es mayor que " + numero);
-				System.out.println("Introduzca un número del 1 al 100");
-				numero = sc.nextInt();
-			}
-		else if (numero != -1) {
-				System.out.println("Introduzca un número del 1 al 100");
-				numero = sc.nextInt();
-			}
+		while (numero != random){
 			
 		}
 		System.out.println("Has ganado.");
