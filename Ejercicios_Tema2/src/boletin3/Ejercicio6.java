@@ -28,7 +28,7 @@ public class Ejercicio6 {
 		}
 		
 		// Muestro los resultados pedidos
-		System.out.println("La media es: " + suma/cantidad);
+		System.out.println("La media es: " + (double)suma/cantidad);
 		System.out.println("El número de alumnos es: " + cantidad);
 		System.out.println("El número de alumnos mayores de edad son: " + mayores);
 		// Cierro el Scanner
