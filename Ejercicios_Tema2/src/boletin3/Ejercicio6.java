@@ -22,9 +22,9 @@ public class Ejercicio6 {
 				mayores += 1;
 			}
 		suma += numero;
-		cantidad++;
 		System.out.println("Introduzca un número");
 		numero = sc.nextInt();
+		cantidad++;
 		}
 		
 		// Muestro los resultados pedidos
