@@ -20,8 +20,9 @@ public class Ejercicio3 {
 		numero = sc.nextInt();
 		
 		
-		// Bucle para realizar las sumas
+		// Bucle donde se comprueba que el numero es positivo
 		while (numero >= 0) {
+			// Sumo los números introducidos y los cuento
 			suma += numero;
 			cantidad++;
 			System.out.println("Introduzca un número para sumar. Valor negativo para salir.");

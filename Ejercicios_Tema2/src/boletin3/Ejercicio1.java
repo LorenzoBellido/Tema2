@@ -17,8 +17,9 @@ public class Ejercicio1 {
 		System.out.println("Introduzca un número. ");
 		numero = sc.nextInt();
 		
-		// Realizamos un bucle 
+		// Bucle donde se comprueba que numero es positivo
 		while (numero >= 0) {
+			// Operación que suma los números
 			suma += numero;
 			System.out.println("Introduzca un número. Valor negativo para salir");
 			numero = sc.nextInt();

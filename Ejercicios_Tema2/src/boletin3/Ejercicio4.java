@@ -15,8 +15,9 @@ public class Ejercicio4 {
 		System.out.println("Introduzca un número.");
 		numero = sc.nextInt();
 		
-		// Realizo un bucle
+		// Bucle donde se comprueba que el numero no sea 0
 		while (numero!=0) {
+			// Condicional que muestra si un número es par o impar
 			if (numero%2 == 0) {
 				System.out.println("Su número es par");
 			}
