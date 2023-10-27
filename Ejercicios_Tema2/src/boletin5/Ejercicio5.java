@@ -7,7 +7,7 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		// Variable donde introducir un número
 		int n;
-		int media = 0;
+		double media = 0;
 		
 		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);

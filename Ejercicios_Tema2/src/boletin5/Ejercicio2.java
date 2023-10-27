@@ -8,7 +8,7 @@ public class Ejercicio2 {
 		
 		// Bucle que empieza en 2 y muestra todos los número pares hasta 200
 		for (int i = 2; (i % 2 == 0) &&(i <= 200); i+=2){
-			System.out.println(i);
+			System.out.println(i + "es un número par");
 		}
 
 	}

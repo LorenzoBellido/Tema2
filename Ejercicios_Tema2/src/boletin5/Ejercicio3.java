@@ -7,7 +7,7 @@ public class Ejercicio3 {
 		// Bucle que empieza en 7 y muesta los multiplos de 7
 		for (int i = 7; i < 100; i+=7)
 		{
-			System.out.println(i);
+			System.out.println(i + "es un multiplo de 7");
 		}
 
 	}

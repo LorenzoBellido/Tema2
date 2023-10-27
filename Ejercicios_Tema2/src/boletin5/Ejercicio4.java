@@ -19,7 +19,7 @@ public class Ejercicio4 {
 		// Bucle donde sumo de uno en uno hasta llegar a n y cuando sea multiplo de 3 se imprima
 		for(int i = 1; i <= n; i++) {
 			if (i % 3 == 0) {
-				System.out.println(i);
+				System.out.println(i + "es un multiplo de 3");
 			}
 		}
 		
